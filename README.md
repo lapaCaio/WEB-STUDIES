@@ -1,2 +1,2 @@
 # WEB-STUDIES
-a repository for hmtl study organizations
+a repository for HTML and CSS study organizations
