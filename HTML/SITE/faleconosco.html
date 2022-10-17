@@ -4,26 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fale Conosco</title>
+    <title>Document</title>
 </head>
 <body>
-    <div align="justify">
-        <div align="center"> 
-            <h1>Fala ai zé, kkk</h1>
-            <form action="">
-                <div>
-                    <label for="textin">fala pra nois aí...</label>
-                    <br>
-                    <input type="text-area" name="textin">
-                </div>
-                <br>
-                <div>
-                    <label for="butaozin"></label>
-                    <button type="submit">Enviar</button>
-                </div>
+    <div align="center">
+        <h3>Trabalhando com Forms HTML 5</h3><p>
+  
+            <form action="pagina2.html">
+                <label for="nome">Nome:</label> 
+                <input type="text" name="nome" size="70" placeholder="Nome completo..." />
+  
+                <p><label for="cpf">CPF:</label>
+                <input type="text" name="cpf" size="15" required placeholder="xxx.xxx.xxx-xx" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}" />
+  
+                <p><label for="email">E-mail:</label>
+                <input type="email" name="email" size="15" placeholder="email@dominio.com" />
+  
+                <p>
+                  <label for="numeros">Apenas Numeros: </label>
+                  <input type="text" id="numeros" name="numeros"  placeholder="somente numeros...." pattern="[0-9]+$"/>
+  
+                <p>
+                  <label for="letras">Apenas Letras: </label>
+                  <input type="text" id="letras" name="letras"  placeholder="somente letras...." pattern="[a-z\s]+$"/>
+  
+                <p>
+                  <label for="date">Data: </label>
+                  <input type="date" maxlength="10" name="date" pattern="[0-9]{2}\\[0-9]{2}\\[0-9]{4}$" min="2012-01-01" max="2014-02-18" />
+  
+                <p>
+                  <label for="phone">Telefone: </label>
+                  <input type="tel" id="phone" name="phone" required placeholder="(xx) xxxxx-xxxx" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{4}"/>
+          
+                <p><input type="submit" value="Enviar Dados">
             </form>
-            
-        </div>
-    </div>
+      </div>
 </body>
 </html>
