@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Lokicola;
+    src: url(../FONT/loki_cola/LOKICOLA.TTF);
+}
+
+body {
+    font-family: Lokicola;
+    text-indent: 30px;
+    letter-spacing: 6px;
+}
+
+a:hover {
+    color: pink;
+    text-transform: uppercase;
+}
