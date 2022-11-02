@@ -3,6 +3,7 @@ function readMore(){
     var moreText = document.getElementById("more");
     var btnReadMore = document.getElementById("btnReadMore");
 
+
     if(dots.style.display ===  "none"){
         dots.style.display="inline";
         moreText.style.display="none";
