@@ -1,0 +1,40 @@
+body {
+    background-color: #E0EEEE;
+    width: 750px;
+    padding: 5px;
+    margin: 20px 50px 50px 100px;
+    border: 4px;
+    border-style: dashed;
+    border-color: #696969; 
+}
+
+h1 {
+    color: #27408b;
+    padding-left: 30px;
+    border-top: 2px;
+    border-bottom: 2px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+h2 {
+    border: 1px;
+    border-style: dotted;
+}
+
+p {
+    text-indent: 15px;
+    border-color: #ffd700;
+    border-left: 2px;
+    border-style: solid;
+    padding: 10px;
+    margin: 15px;
+}
+
+.classediv {
+    background: #f8f8ff;
+    border: 2px;
+    border-style: double;
+    border-color: #a52a2a;
+    
+}
