@@ -1,0 +1,37 @@
+body{
+    margin: auto;
+    width: 80%;
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+
+h1 {
+    color: #9F461F;
+    text-align: center;
+    background-color: #FAC877;
+    font-size: 46px;
+    /*width: 80%;*/
+    margin: auto;
+}
+
+h2 {
+    color: red;
+    background-color: #C79090;
+    font-size: 36px;
+    border-bottom: solid 3px red;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+a {
+    text-decoration: none;
+}
+
