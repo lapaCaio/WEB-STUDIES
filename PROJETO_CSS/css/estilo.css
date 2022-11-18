@@ -1,0 +1,118 @@
+body{
+    background: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.hero{
+    background-image: url('../imagens/bg-3.jpg');
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+}
+
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 45px;
+    text-shadow: 3px 3px 2px #333;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+
+}
+
+.content-section{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+.content-header{
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+    background-color:rgb(186, 182, 182);
+}
+
+.content-header h2{
+    margin: 0;
+}
+
+footer{
+    text-align: center;
+    background-color: gray;
+    height: 80px;
+    margin-top: 15px;
+    padding-top: 25px;
+    color: white;
+    text-shadow: 3px 3px 2px #333;
+}
+
+.hero nav li{
+    display: inline-block;
+    list-style: none;
+    /* padding: 10px; */
+    border: 1px solid white;
+    margin-left: 10px;
+}
+
+.hero nav ul{
+    text-align: right;
+    margin: 20px 50px 0 0;
+}
+
+.hero nav a{
+    /* background-color: black; */
+    background: rgba(0, 0, 0, 0.3);
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.hero nav a:hover{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content p {
+    background: rgba(0, 0, 0, 0.8);
+    display: inline-block;
+    padding: 15px;
+    border-bottom: white solid 2px;
+}
+
+.card {
+    float: left;
+    box-sizing: border-box;
+    width: 32%;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card p {
+    background-color: #333;
+    color: white;
+    margin: 0;
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.card-1, .card-2 {
+    margin-right: 2%;
+}
