@@ -1,0 +1,40 @@
+body {
+    font-family: serif;
+    font-size: 50px;
+    background-color: greenyellow;
+}
+
+/*Forma de deixar as imagens responsivas!*/
+#img2 {
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media screen and (max-width: 768px){
+    #video {
+        width: 426px;
+        height: 240px;
+    }
+}
+
+
+
+/*CSS de exercício de media query*/
+.caixa{
+    border: 1px solid black;
+    padding: 5px 10px;
+    width: 30%;
+    height: 200px;
+    margin: 2px 2px;
+    display: inline-block;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px){
+    .caixa {
+        width: auto;
+        display: block;
+        margin: auto;
+    }
+}
