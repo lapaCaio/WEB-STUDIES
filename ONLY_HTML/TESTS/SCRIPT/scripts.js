@@ -3,8 +3,6 @@ function readMore() {
     var moreText = document.getElementById("more");
     var btnReadMore = document.getElementById("btnReadMore");
 
-    //talvez usar o this e passar algo como parametro...
-
 
     if (dots.style.display === "none") {
         dots.style.display = "inline";
